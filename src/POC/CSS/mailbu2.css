@@ -88,6 +88,10 @@
     .backGround1 {
         font-size: 20px ;
     }
+    .cardView{
+        padding: 5px;
+    }
+    
 }
 
 @media  (max-width: 991px) {
@@ -113,42 +117,11 @@
     .body1 {
         padding: 0.9rem !important;
     }
-    .cardView {
-        margin-left: 4px;
-    }
-}
-
-
-@media (max-width: 575px) {
-    .cardView {
-        margin-left: 5px;
-    }
-}
-
-@media (max-width: 425px) {
-    .cardView {
-        margin-left: 5px;
-    }
-}
-
-@media  (max-width: 414px) {
-    .cardView {
-        margin-left: 5px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .cardView {
-        margin-left: 5px;
-    }
 }
 
 @media only screen and (max-width: 320px) {
     .img_res {
         height: 600px !important;
-    }
-    .cardView {
-        margin-left: 5px;
     }
 }
 

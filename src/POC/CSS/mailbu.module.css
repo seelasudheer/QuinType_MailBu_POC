@@ -112,6 +112,7 @@
   font-size: 15px;
   opacity: 0.6;
   font-family: 'MyWebFont';
+  margin-left: 0px;
 }
 .card_body3 {
   flex: 1 1 auto;

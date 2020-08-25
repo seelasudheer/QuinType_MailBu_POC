@@ -77,7 +77,7 @@ export class Content extends Component {
                                             Jenny Lawson is Publishing a New Book and It's Sort of a Coloring Book</strong></span>
                                         </Card.Text>
                                         <footer >
-                                            <span  className="footer1">Jonnathan Doe</span>
+                                            <span  className={styles.footer1}>Jonnathan Doe</span>
                                         </footer>
                                     </Card.Body>
                                 </div><br/>
@@ -88,7 +88,7 @@ export class Content extends Component {
                                                To Customers Who Switch To Its 4G Service</strong></span>
                                         </Card.Text>
                                         <footer >
-                                            <span  className="footer1">Alice Doe</span>
+                                            <span  className={styles.footer1}>Alice Doe</span>
                                         </footer>
                                     </Card.Body>
                                 </Card><br/>
@@ -115,7 +115,7 @@ export class Content extends Component {
                           Switch To Its 4G Service
                         </h6>
                       </span>
-                      <footer className="footer1">
+                      <footer className={styles.footer1}>
                         <span>Alex Parkinson</span>
                       </footer>
                       <hr />
@@ -147,7 +147,7 @@ export class Content extends Component {
                           Shares To Near 2.5- Year Low
                         </h6>
                       </span>
-                      <footer className="footer1">
+                      <footer className={styles.footer1}>
                         <span>Alice Doe</span>
                       </footer>
                       <hr />
@@ -178,7 +178,7 @@ export class Content extends Component {
                         </h6>
                       </span>
 
-                      <footer className="footer1">
+                      <footer className={styles.footer1}>
                         <span>Jonnathan Doe</span>
                       </footer>
                       {this.state.getHeight >= 751 &&
