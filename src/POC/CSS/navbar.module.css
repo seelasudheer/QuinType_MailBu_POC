@@ -1,0 +1,19 @@
+
+:root {
+    --barsColor: #3238a8;
+    --barsOnHover: #2e7ac2;
+  }
+
+  .mainNavCss{
+    box-shadow: 1px 1px 6px 0px grey
+    }
+    .bars {
+        color: var(--barsColor);
+      }
+      
+      .bars:hover {
+        color: var(--barsOnHover);
+      }
+      .navbar-toggler:hover {
+        color: blue;
+      }

@@ -1,0 +1,120 @@
+:root {
+  --barsColor: #3238a8;
+  --barsOnHover: #2e7ac2;
+  --main-padding: 15px;
+  --colWhite: white;
+  --home: black;
+  --bordColor: #6093f2;
+  --colBlack: black;
+}
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('./Fonts/NoveoSans-Light.ttf');
+  /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('./Fonts/NoveoSans-Black.ttf');
+  /* Super Modern Browsers */
+}
+
+.backGround:hover {
+  transform: scale(1.02);
+}
+
+.text {
+  align-items: center;
+  color: var(--barsColor);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.text:hover {
+  color: var(--barsOnHover);
+}
+
+.text2 {
+  align-items: center;
+  color: var(--home);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.text2:hover {
+  color: var(--barsOnHover);
+}
+.bannerImage {
+  position: relative;
+  width: auto;
+}
+.backGround {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainHeader {
+  font-family: 'MyWebFont2';
+  color: var(--colBlack);
+  font-size: 32px;
+}
+
+.horizon {
+  width: 100px;
+  margin: 0px;
+  border-width: 0.3rem;
+  height: 0px;
+  border-color: var(--bordColor);
+}
+
+.makeFont {
+  font-family: 'MyWebFont';
+  font-size: 22px;
+  font-weight: bolder ;
+}
+
+.makeFont1 {
+  font-family: 'MyWebFont';
+  font-size: 25px;
+  font-weight: bolder !important;
+}
+
+.textimage {
+  font-family: 'MyWebFont2';
+  color: var(--colWhite);
+}
+
+.textimage2 {
+  font-family: 'MyWebFont';
+  color: var(--colWhite);
+}
+.read {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+}
+.footer1 {
+  font-size: 15px;
+  opacity: 0.6;
+  font-family: 'MyWebFont';
+}
+.card_body3 {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0px;
+}

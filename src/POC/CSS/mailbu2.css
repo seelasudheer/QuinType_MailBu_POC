@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./Fonts/NoveoSans-Light.ttf');
+    /* Super Modern Browsers */
+}
+
+@font-face {
+    font-family: 'MyWebFont2';
+    src: url('./Fonts/NoveoSans-Black.ttf');
+    /* Super Modern Browsers */
+}
+
+@font-face {
+    font-family: 'MyWebFont3';
+    src: url('./Fonts/NoveoSans-Book.ttf');
+    /* Super Modern Browsers */
+}
+.container img {
+    vertical-align: middle;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    left: 12%;
+    display: initial;
+    right: 10%;
+}
+
+.backGround1 {
+    font-family: 'MyWebFont3';
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.backGround2 {
+    font-family: 'MyWebFont3';
+    font-weight: bold ;
+    font-size: 22px;
+    margin: 0px ;
+}
+
+.backGround3 {
+    font-family: 'MyWebFont3';
+    font-size: 19px ;
+    margin: 0px ;
+    font-weight: bolder ;
+}
+
+.cardView {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+    border: none;
+    background-color: rgba(232, 232, 232, 0.10) !important
+}
+
+.body1 {
+    padding: 1.02rem !important;
+}
+
+
+@media(max-width: 2560px) {
+    .img_res {
+        height: 564px !important;
+        width: 100% !important;
+    }
+    .backGround1 {
+        font-family: 'MyWebFont3';
+        font-weight: bold;
+        font-size: 22px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img_res {
+        height: 570px !important;
+        width: 100% !important;
+    }
+    .backGround1 {
+        font-size: 20px ;
+    }
+}
+
+@media  (max-width: 991px) {
+    .img_res {
+        height: 553px !important;
+        width: 100% !important;
+    }
+    .backGround1{
+        font-size: 17px ;
+    }
+}
+
+@media (max-width: 768px) {
+    .img_res {
+        height: auto !important;
+        padding: 0 ;
+        margin: auto;
+        display: block;
+    }
+    .backGround2 {
+        font-size: 14px ;
+    }
+    .body1 {
+        padding: 0.9rem !important;
+    }
+    .cardView {
+        margin-left: 4px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .cardView {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cardView {
+        margin-left: 5px;
+    }
+}
+
+@media  (max-width: 414px) {
+    .cardView {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .cardView {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .img_res {
+        height: 600px !important;
+    }
+    .cardView {
+        margin-left: 5px;
+    }
+}
+
